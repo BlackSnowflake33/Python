@@ -3,8 +3,10 @@
 # Кортеж занимает меньше места в памяти и работают быстрее, по сравнению со списками 
 t = () # создание пустого кортежа 
 print(type(t)) # class <'tuple'> 
-t = (1,) print(type(t)) 
-t = (1) print(type(t)) 
+t = (1,) 
+print(type(t)) 
+t = (1) 
+print(type(t)) 
 t = (28, 9, 1990) 
 print(type(t))
 
