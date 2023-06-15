@@ -29,4 +29,5 @@ lst1 = [-5, 9, 0, 3, -1, -2, 1, 4, -2, 10, 2, 0, -9, 8, 10, -9, 0, -5, -5, 7]
 
 mim_border, max_border = [int(el) for el in input("Введите границы диапозона ").split()]
 
-print(check_indexes(lst1, mim_border, max_border))
+for idx, el in enumerate(check_indexes(lst1, mim_border, max_border)):
+    print(idx, el)
